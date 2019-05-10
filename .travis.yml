@@ -1,0 +1,22 @@
+language: go
+
+go:
+  - "1.11.2"
+
+# Request latest Travis distro for systemd requirement.
+dist: xenial
+sudo: required
+
+services:
+  - docker
+
+install:
+  -
+
+script:
+  - ./SalmonTSP/imagebuild.sh
+
+# TBD. Suppressing for now.
+notifications:
+  email: true
+

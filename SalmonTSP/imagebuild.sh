@@ -21,8 +21,8 @@ export REGISTRY=quay.io/
 export REPO=onyiny_ang
 
 # Set up credentials in travis
-#echo "Logging into registry ${REGISTRY///}"
-#docker login -u "${QUAY_USERNAME}" -p "${QUAY_PASSWORD}" quay.io
+echo "Logging into registry ${REGISTRY///}"
+docker login -u "${QUAY_USERNAME}" -p "${QUAY_PASSWORD}" quay.io
 
 # Iterate over the TSP data sets
 for i in ${TSPArray[@]}; do
