@@ -2,14 +2,14 @@
 #define GLOBAL_H
 
 #define RESTARTS 1   // run the entire algorithm this many times
-#define GENERATIONS 150
-#define SURVIVAL 40 // The number of salmon that survive to spawn each generation
-#define MEMORY .5   // The salmon will select this proportion of vertices from memory
-#define POPULATION 400
+#define GENERATIONS 425
+#define SURVIVAL 39 // The number of salmon that survive to spawn each generation
+#define MEMORY .79   // The salmon will select this proportion of vertices from memory
+#define POPULATION 650
 #define BIG_NUMBER 1000000
 #define SMALL_NUMBER .00001
-#define BEST_KNOWN 7544.37
-#define BETA 2.6   // exponent for flow in roulette selection
+#define BEST_KNOWN 7544
+#define BETA 1.36   // exponent for flow in roulette selection
 #define ELITE 'Y'  // set to Y for elite salmon and N for no elite
 
 // file parameters

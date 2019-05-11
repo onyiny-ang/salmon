@@ -6,12 +6,11 @@
 The Salmon Algorithm, developed by John
 Orth as part of his Master’s thesis, combines
 concepts from existing metaheuristics such as
-Genetic Algorithms(GA) and Ant Colony Op-
-timization (ACO), to solve combinatorial opti-
-mization problems in a reasonable amount of
+Genetic Algorithms(GA) and Ant Colony Optimization (ACO),
+to solve combinatorial optimization problems in a reasonable amount of
 time [1]. The Salmon Algorithm was inspired
-by the behaviour of salmon swimming up-
-stream to spawn. In the wild, salmon return to
+by the behaviour of salmon swimming upstream to spawn.
+In the wild, salmon return to
 the place they were born to spawn, suggesting
 something resembling a memory of the path
 their parents’ took. A salmon’s memory can be
@@ -25,11 +24,10 @@ the pheromone which helps direct an ant’s path
 in ACO. Like many evolutionary algorithms,
 the salmon algorithm involves populations of
 salmon that run for several generations. The
-salmon algorithm makes no claims of accu-
-rately representing real salmon, but attempts to
-simulate idealized aspects of salmon’s spawn-
-ing behaviour to effectively solve computation-
-ally hard problems [1].
+salmon algorithm makes no claims of accurately representing real salmon,
+but attempts to simulate idealized aspects of salmon’s spawning behaviour
+to effectively solve computationally hard problems [1].
 
+[Documentation](docs/documentation.md)
 ---
 ##### 1. J. Orth, “The Salmon Algorithm-A New Population Based Search Metaheuristic,” Master’s Thesis, Brock University, 2012. [Online]. Available: [https://dr.library.brocku.ca/handle/10464/3929](https://dr.library.brocku.ca/handle/10464/392)
