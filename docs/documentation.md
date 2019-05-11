@@ -38,19 +38,32 @@ GENERATIONS:  The number of iterations the algorithm will perform
 
 SURVIVAL: The number of salmon that survive to spawn each generation
 
-MEMORY: The salmon will select this proportion of vertices from memory (aka &phi;)
+MEMORY: The salmon will select this proportion of vertices from memory aka &phi;
 
 POPULATION: The number of salmon that will spawn each generation
 
 BEST_KNOWN: The best known result for the problem. This is a negative number
 for DNA Fragment Assembly problems
 
-BETA:  Exponent for flow in roulette selection (aka &alpha;)
+BETA:  Exponent for flow in roulette selection aka &alpha;
 
 IN_FILE_NAME: The name of the text file with Euclidean distances between points
 ```
 
+### Image build script
 
+Within the `SalmonTSP` directory there is an `imagebuild.sh` script that builds all containers in the `SalmonTSP` directory. If a new container is added to the registry, the name of the directory should appended in quotations to the end of line `8`:
+```
+declare -a TSPArray=. . .
+```
+
+### Dockerfile and Travis
+
+No changes to the Dockerfile or .travis.yml are required if the steps above are
+followed. The Dockerfile is generic for any salmon code that is moved by the
+imagebuild script into a temporary folder `SalmonTSP/temp` and the .travis.yml
+build calls the imagebuild script on each directory it is provided within
+`SalmonTSP`.
 
 
 
