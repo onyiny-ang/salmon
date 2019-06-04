@@ -9,6 +9,7 @@
 #define BIG_NUMBER 1000000
 #define SMALL_NUMBER .00001
 #define BEST_KNOWN -18301
+#define TOTAL_DNA 670000
 #define BETA .7   // exponent for flow in roulette selection
 #define ELITE 'Y'  // set to Y for elite salmon and N for no elite
 
