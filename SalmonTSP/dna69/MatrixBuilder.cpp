@@ -16,6 +16,7 @@ double** MatrixBuilder::buildAdjacencyMatrix(ifstream* inFile, int& size) {
     double temp;
     double** adjMatrix; // The adjacency matrix
     double xDif, yDif;
+
     // Read the first line of the file. ie the number of vertices in
     // the graph.
 
@@ -73,15 +74,15 @@ double** MatrixBuilder::buildAdjacencyMatrix(ifstream* inFile, int& size) {
         for (j = 0; j < size; j++) {
             *inFile >> currentLine; // We are not using the index number
             index = atoi(currentLine); // Just read it and throw it away
-//            if ((index < SMALL_NUMBER) || (index > BIG_NUMBER)) {
-//                cout << "Invalid data in line number "
-//                        << i + 1 << ". Program aborted.\n";
-//                return NULL;
-//            }
-            adjMatrix[i][j] = index*-1;
+            if ((index < SMALL_NUMBER) || (index > BIG_NUMBER)) {
+                cout << "Invalid data in line number "
+                        << i + 1 << ". Program aborted.\n";
+                return NULL;
+            }
+            adjMatrix[i][j] = index;
         }
     }
-    
+
     inFile->close();
     //    for (i = 0; i < size; i++) delete[] vertexPoints[i];
     //    delete[] vertexPoints;
