@@ -29,10 +29,11 @@ for i in ${TSPArray[@]}; do
     mkdir ${temp_dir}
     cp ${base_dir}/SalmonTSP/${i}/* ${temp_dir}
     cp ${base_dir}/SalmonTSP/base-salmon/* ${temp_dir}
-    echo "Building Salmon docker image with tag '${i}'-canary."
+    echo "Building Salmon docker image with tag '${i}'-beta."
     docker build -f ${dockerfile_dir} -t ${REGISTRY}${REPO}/salmon-tsp:${i}-beta .
+    docker tag  -t beta  ${REGISTRY}${REPO}/salmon-tsp:${i}-beta
 
-    echo "Pushing images with tag '${i}'-canary."
+    echo "Pushing images with tag '${i}'-beta."
     docker push ${REGISTRY}${REPO}/salmon-tsp:${i}-beta
 
     rm -rf ${temp_dir}
