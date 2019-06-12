@@ -6,7 +6,7 @@
 #define SURVIVAL 43 // The number of salmon that survive to spawn each generation
 #define MEMORY .975   // The salmon will select this proportion of vertices from memory
 #define POPULATION 1500
-#define BIG_NUMBER 1000000
+#define BIG_NUMBER 2000000
 #define SMALL_NUMBER .00001
 #define BEST_KNOWN 1724829
 #define TOTAL_DNA 1780000
