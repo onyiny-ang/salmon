@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.com/onyiny-ang/salmon.svg?token=6hmRNtGMeYcpom73Q3ph&branch=master)](https://travis-ci.com/onyiny-ang/salmon "Travis")
 [![Image Repository on Quay](https://quay.io/repository/onyiny_ang/salmon-tsp/status "Image Repository on Quay")](https://quay.io/repository/onyiny_ang/salmon-tsp)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fonyiny-ang%2Fsalmon.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fonyiny-ang%2Fsalmon?ref=badge_shield)
 
 # The Salmon Algorithm
 
@@ -31,3 +32,7 @@ to effectively solve computationally hard problems [1].
 [Documentation](docs/documentation.md)
 ---
 ##### 1. J. Orth, “The Salmon Algorithm-A New Population Based Search Metaheuristic,” Master’s Thesis, Brock University, 2012. [Online]. Available: [https://dr.library.brocku.ca/handle/10464/3929](https://dr.library.brocku.ca/handle/10464/392)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fonyiny-ang%2Fsalmon.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fonyiny-ang%2Fsalmon?ref=badge_large)
