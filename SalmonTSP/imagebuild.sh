@@ -6,7 +6,7 @@ set -o pipefail
 
 # Declare an array of TSP data sets
 declare -a TSPArray=("berlin52" "dna40" "dna49" "dna67" "dna69" "dna128"
-"dna174" "dna178, dna353, dna443, dna 774")
+"dna174" "dna178" "dna353" "dna443" "dna774")
 root_dir="$(cd "$(dirname "$0")/.." ; pwd)"
 base_dir="${root_dir}"
 temp_dir="${base_dir}/SalmonTSP/temp"
