@@ -28,7 +28,7 @@ salmon algorithm makes no claims of accurately representing real salmon,
 but attempts to simulate idealized aspects of salmon’s spawning behaviour
 to effectively solve computationally hard problems [1].
 
-[Documentation](docs/documentation.md)
+### [Documentation](docs/documentation.md)
 
 ### Associated Research
 
