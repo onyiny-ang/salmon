@@ -10,40 +10,41 @@ The Salmon algorithm can be used for both TSP and DNA Fragment Assembly (the DNA
 Fragment Assembly problem’s likeness to a TSP problem was first recognized and then
 dismissed by Parsons [1], it was later adapted and implemented by Mullen-Fullerton.[2])
 
-### Containerized Datasets
+## Containerized Datasets
+---
 
 ### TSP
 
-[Berlin52](SalmonTSP/berlin52)
+[Berlin52](../SalmonTSP/berlin52)
 
-TSP dataset courtesy of TSPLIB [3]
+TSP dataset courtesy of [TSPLIB](https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/) [3]
 
 ### DNA Fragment Assembly
 
-[x60189 4](SalmonTSP/dna40)
+[x60189 4](../SalmonTSP/dna40)
 
-[x60189 5](SalmonTSP/dna49)
+[x60189 5](../SalmonTSP/dna49)
 
-[x60189 6](SalmonTSP/dna67)
+[x60189 6](../SalmonTSP/dna67)
 
-[x60189 7](SalmonTSP/dna69)
+[x60189 7](../SalmonTSP/dna69)
 
-[m15421 5](SalmonTSP/dna128)
+[m15421 5](../SalmonTSP/dna128)
 
-[m15421 6](SalmonTSP/dna174)
+[m15421 6](../SalmonTSP/dna174)
 
-[m15421 7](SalmonTSP/dna178)
+[m15421 7](../SalmonTSP/dna178)
 
-[j02459 7](SalmonTSP/dna353)
+[j02459 7](../SalmonTSP/dna353)
 
-[bx842596 4](SalmonTSP/dna443)
+[bx842596 4](../SalmonTSP/dna443)
 
-[bx842596 7](SalmonTSP/dna774)
+[bx842596 7](../SalmonTSP/dna774)
 
-Fragbench datasets courtesy of DNA ASSEMBLY PROBLEM BENCHMARK REPOSITORY [Datasets](http://www.mallen.mx/fragbench/index1.php) [2]
+Fragbench datasets courtesy of [DNA Assembly Problem Benchmark Repository](http://www.mallen.mx/fragbench/index1.php) [2]
 
 
-### Directory Configuration
+## Directory Configuration
 
 In the [SalmonTSP](../SalmonTSP) directory, `berlin52` provides all of the
 necessary files for a TSP like problem and the `dna` directories provide all of
@@ -55,7 +56,7 @@ usability/readability, it may have been better to indicate: `DNA-MatrixBuilder`
 and `TSP-MatrixBuilder` but for ease of build, the appropriate file has been
 placed in each directory. Copy the appropriate file for your instance.
 
-### Parameter Configuration
+## Parameter Configuration
 
 The `Global.h` files for each container use the best parameters found from
 earlier research using Param-ILS--an automated parameter tuning and algorithm configuration
@@ -83,14 +84,14 @@ BETA:  Exponent for flow in roulette selection aka &alpha;
 IN_FILE_NAME: The name of the text file with Euclidean distances between points
 ```
 
-### Image build script
+## Image build script
 
 Within the `SalmonTSP` directory there is an `imagebuild.sh` script that builds all containers in the `SalmonTSP` directory. If a new container is added to the registry, the name of the directory should appended in quotations to the end of line `8`:
 ```
 declare -a TSPArray=. . .
 ```
 
-### Dockerfile and Travis
+## Dockerfile and Travis
 
 No changes to the Dockerfile or .travis.yml are required if the steps above are
 followed. The Dockerfile is generic for any salmon code that is moved by the
@@ -103,7 +104,7 @@ build calls the imagebuild script on each directory it is provided within
 ---
 ##### 1. R.J.Parsons, S.Forrest, and C.Burks, “Genetic algorithms, operators, and DNA fragment assembly,” Machine Learning, vol. 21, no. 1, pp. 11–33, 1995. [Online]. Available: [http://www.springerlink.com/index/P892188783H43M04.pdf](http://www.springerlink.com/index/P892188783H43M04.pdf)
 
-#### 2. G.M. Mallen-Fullerton and G. Fernandez-Anaya, "Dna fragment assembly using optimization", in 2013 IEEE Congress on Evolutionary Computation CEC. IEEE, 2013, pp. 1570-1577.[Datasets](http://www.mallen.mx/fragbench/index1.php)
+##### 2. G.M. Mallen-Fullerton and G. Fernandez-Anaya, "Dna fragment assembly using optimization", in 2013 IEEE Congress on Evolutionary Computation CEC. IEEE, 2013, pp. 1570-1577.
 
 ##### 3. Gerhard Reinelt,“TSPLIB.” [On-line]. Available: [http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)
 
