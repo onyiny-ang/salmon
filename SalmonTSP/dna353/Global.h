@@ -4,7 +4,7 @@
 #define RESTARTS 1   // run the entire algorithm this many times
 #define GENERATIONS 1500
 #define SURVIVAL 55 // The number of salmon that survive to spawn each generation
-#define MEMORY .98   // The salmon will select this proportion of vertices from memory
+#define MEMORY .99   // The salmon will select this proportion of vertices from memory
 #define POPULATION 1500
 #define BIG_NUMBER 4000000
 #define SMALL_NUMBER .00001
