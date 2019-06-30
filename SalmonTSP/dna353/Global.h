@@ -16,7 +16,7 @@
 // file parameters
 #define OUT_FILE_NAME "salmon1.txt"
 #define SEED_FILE_NAME "randomseed.txt"
-#define IN_FILE_NAME "dna178.txt"
+#define IN_FILE_NAME "dna353.txt"
 
 
 #endif
