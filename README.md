@@ -28,48 +28,12 @@ salmon algorithm makes no claims of accurately representing real salmon,
 but attempts to simulate idealized aspects of salmon’s spawning behaviour
 to effectively solve computationally hard problems [1].
 
-This repository holds the source code required to build and run several containers 
-with optimization problems formatted for the Salmon Algorithm. These are:
-
-### TSP
-
-[Berlin52](SalmonTSP/berlin52)
-
-TSP dataset courtesy of TSPLIB [2]
-
-### DNA Fragment Assembly
-
-[x60189 4](SalmonTSP/dna40)
-
-[x60189 5](SalmonTSP/dna49)
-
-[x60189 6](SalmonTSP/dna67)
-
-[x60189 7](SalmonTSP/dna69)
-
-[m15421 5](SalmonTSP/dna128)
-
-[m15421 6](SalmonTSP/dna174)
-
-[m15421 7](SalmonTSP/dna178)
-
-[j02459 7](SalmonTSP/dna353)
-
-[bx842596 4](SalmonTSP/dna443)
-
-[bx842596 7](SalmonTSP/dna774)
-
-Fragbench datasets courtesy of DNA ASSEMBLY PROBLEM BENCHMARK REPOSITORY [3]
+[Documentation](docs/documentation.md)
 
 ### Associated Research
 
 This container building repository is part of a larger research project focusing on Kubernetes, hosted [here](https://github.com/onyiny-ang/4F90-kubernetes)
 
-[Documentation](docs/documentation.md)
 ---
 ##### 1. J. Orth, “The Salmon Algorithm-A New Population Based Search Metaheuristic,” Master’s Thesis, Brock University, 2012. [Online]. Available: [https://dr.library.brocku.ca/handle/10464/3929](https://dr.library.brocku.ca/handle/10464/392)
 
-##### 2. Gerhard Reinelt,“TSPLIB.” [On-line]. Available: [http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)
-
-##### 3. G. M. Malln-Fullerton, J. A. Hughes, S. Houghten, and G.Fernndez-Anaya, “Benchmark datasets for the dna fragment assembly problem,” International Journal of Bio-Inspired Computation, vol. 5, no. 6, pp. 384–394, 2013. [Online]. Available:
-http://www.inderscienceonline.com/doi/abs/10.1504/IJBIC.2013.058 [Datasets](http://www.mallen.mx/fragbench/index1.php)

@@ -10,6 +10,39 @@ The Salmon algorithm can be used for both TSP and DNA Fragment Assembly (the DNA
 Fragment Assembly problem’s likeness to a TSP problem was first recognized and then
 dismissed by Parsons [1], it was later adapted and implemented by Mullen-Fullerton.[2])
 
+### Containerized Datasets
+
+### TSP
+
+[Berlin52](SalmonTSP/berlin52)
+
+TSP dataset courtesy of TSPLIB [3]
+
+### DNA Fragment Assembly
+
+[x60189 4](SalmonTSP/dna40)
+
+[x60189 5](SalmonTSP/dna49)
+
+[x60189 6](SalmonTSP/dna67)
+
+[x60189 7](SalmonTSP/dna69)
+
+[m15421 5](SalmonTSP/dna128)
+
+[m15421 6](SalmonTSP/dna174)
+
+[m15421 7](SalmonTSP/dna178)
+
+[j02459 7](SalmonTSP/dna353)
+
+[bx842596 4](SalmonTSP/dna443)
+
+[bx842596 7](SalmonTSP/dna774)
+
+Fragbench datasets courtesy of DNA ASSEMBLY PROBLEM BENCHMARK REPOSITORY [Datasets](http://www.mallen.mx/fragbench/index1.php) [2]
+
+
 ### Directory Configuration
 
 In the [SalmonTSP](../SalmonTSP) directory, `berlin52` provides all of the
@@ -70,10 +103,12 @@ build calls the imagebuild script on each directory it is provided within
 ---
 ##### 1. R.J.Parsons, S.Forrest, and C.Burks, “Genetic algorithms, operators, and DNA fragment assembly,” Machine Learning, vol. 21, no. 1, pp. 11–33, 1995. [Online]. Available: [http://www.springerlink.com/index/P892188783H43M04.pdf](http://www.springerlink.com/index/P892188783H43M04.pdf)
 
-#### 2. G.M. Mallen-Fullerton and G. Fernandez-Anaya, "Dna fragment assembly using optimization", in 2013 IEEE Congress on Evolutionary Computation CEC. IEEE, 2013, pp. 1570-1577.
+#### 2. G.M. Mallen-Fullerton and G. Fernandez-Anaya, "Dna fragment assembly using optimization", in 2013 IEEE Congress on Evolutionary Computation CEC. IEEE, 2013, pp. 1570-1577.[Datasets](http://www.mallen.mx/fragbench/index1.php)
 
-##### 3. L. Tulloch and S. Houghten, "The Salmon Algorithm, Return of the Parameters" 3P99 Project F/W 2016-2017, Brock University, August 2017.
+##### 3. Gerhard Reinelt,“TSPLIB.” [On-line]. Available: [http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)
 
-##### 4. F. Hutter, H.H. Hoos, K. LeytonBrown , T. Stuzle, “ParamILS: An Automatic Algorithm Configuration Framework,” Journal of Artificial Intelligence Research, vol. 36, pp. 267–306, Oct. 2009. [Online]. Available: [http://www.cs.ubc.ca/labs/beta/Projects/ParamILS/papers/09-JAIR-ParamILS.pdf](http://www.cs.ubc.ca/labs/beta/Projects/ParamILS/papers/09-JAIR-ParamILS.pdf)
+##### 4. L. Tulloch and S. Houghten, "The Salmon Algorithm, Return of the Parameters" 3P99 Project F/W 2016-2017, Brock University, August 2017.
 
-##### 5. J. Orth, “The Salmon Algorithm-A New Population Based Search Metaheuristic,” Master’s Thesis, Brock University, 2012. [Online]. Available: [https://dr.library.brocku.ca/handle/10464/3929](https://dr.library.brocku.ca/handle/10464/3929)
+##### 5. F. Hutter, H.H. Hoos, K. LeytonBrown , T. Stuzle, “ParamILS: An Automatic Algorithm Configuration Framework,” Journal of Artificial Intelligence Research, vol. 36, pp. 267–306, Oct. 2009. [Online]. Available: [http://www.cs.ubc.ca/labs/beta/Projects/ParamILS/papers/09-JAIR-ParamILS.pdf](http://www.cs.ubc.ca/labs/beta/Projects/ParamILS/papers/09-JAIR-ParamILS.pdf)
+
+##### 6. J. Orth, “The Salmon Algorithm-A New Population Based Search Metaheuristic,” Master’s Thesis, Brock University, 2012. [Online]. Available: [https://dr.library.brocku.ca/handle/10464/3929](https://dr.library.brocku.ca/handle/10464/3929)
