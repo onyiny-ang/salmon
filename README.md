@@ -31,26 +31,39 @@ to effectively solve computationally hard problems [1].
 This repository holds the source code required to build and run several containers 
 with optimization problems formatted for the Salmon Algorithm. These are:
 
-## TSP
+### TSP
 
 [Berlin52](SalmonTSP/berlin52)
 
 TSP dataset courtesy of TSPLIB [2]
 
-## DNA Fragment Assembly
+### DNA Fragment Assembly
 
 [x60189 4](SalmonTSP/dna40)
+
 [x60189 5](SalmonTSP/dna49)
+
 [x60189 6](SalmonTSP/dna67)
+
 [x60189 7](SalmonTSP/dna69)
+
 [m15421 5](SalmonTSP/dna128)
+
 [m15421 6](SalmonTSP/dna174)
+
 [m15421 7](SalmonTSP/dna178)
+
 [j02459 7](SalmonTSP/dna353)
+
 [bx842596 4](SalmonTSP/dna443)
+
 [bx842596 7](SalmonTSP/dna774)
 
 Fragbench datasets courtesy of DNA ASSEMBLY PROBLEM BENCHMARK REPOSITORY [3]
+
+### Associated Research
+
+This container building repository is part of a larger research project focusing on Kubernetes, hosted [here](https://github.com/onyiny-ang/4F90-kubernetes)
 
 [Documentation](docs/documentation.md)
 ---
